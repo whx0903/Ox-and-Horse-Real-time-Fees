@@ -2,6 +2,8 @@
 
 自用 Android 倒计时 + 桌面小组件。四个倒计时（发薪 / 下班 / 距离周五 / 距离下一个法定节假日）+ 随时间递增的「牛马费」+ 猫猫坐电脑旁。
 
+**[点击下载 APK]：https://github.com/whx0903/Ox-and-Horse-Real-time-Fees/releases/download/v1.0.0/default.apk**
+
 **业务口径以项目根目录之外的 `牛马费倒计时-项目档案.md` 为准（11 条已锁定）。**
 
 ---
