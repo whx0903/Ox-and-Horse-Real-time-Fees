@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 状态 2：工作中，睁眼搬砖 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="140dp"
+    android:height="110dp"
+    android:viewportWidth="140"
+    android:viewportHeight="110">
+
+    <path android:pathData="M2,96 L138,96 L138,101 L2,101 Z" android:fillColor="#FFD9B99C" />
+
+    <!-- 显示器（亮屏 + 代码行） -->
+    <path android:pathData="M78,22 h52 a5,5 0 0 1 5,5 v44 a5,5 0 0 1 -5,5 h-52 a5,5 0 0 1 -5,-5 v-44 a5,5 0 0 1 5,-5 z" android:fillColor="#FF4A5568" />
+    <path android:pathData="M79,28 h50 v42 h-50 z" android:fillColor="#FF9AD8EC" />
+    <path android:pathData="M84,36 h34 v3 h-34 z M84,44 h26 v3 h-26 z M84,52 h32 v3 h-32 z M84,60 h18 v3 h-18 z" android:fillColor="#FF3F7E93" />
+    <path android:pathData="M99,76 h10 v14 h-10 z" android:fillColor="#FF4A5568" />
+    <path android:pathData="M90,90 h28 v5 h-28 z" android:fillColor="#FF4A5568" />
+
+    <path android:pathData="M20,84 C2,80 2,60 14,58 C22,57 24,66 18,68"
+        android:strokeColor="#FFD98B45" android:strokeWidth="6" android:fillColor="#00000000" android:strokeLineCap="round" />
+    <path android:pathData="M18,62 C18,56 24,53 36,53 C48,53 54,56 54,62 L56,94 L16,94 Z" android:fillColor="#FFF0A868" />
+    <path android:pathData="M22,68 h8 M44,68 h8" android:strokeColor="#FFD98B45" android:strokeWidth="2" android:fillColor="#00000000" android:strokeLineCap="round" />
+    <path android:pathData="M18,40 L22,20 L36,34 Z" android:fillColor="#FFF0A868" />
+    <path android:pathData="M54,40 L50,20 L38,34 Z" android:fillColor="#FFF0A868" />
+    <path android:pathData="M16,38 C16,28 24,24 36,24 C48,24 56,28 56,38 C56,52 48,60 36,60 C24,60 16,52 16,38 Z" android:fillColor="#FFF7B77B" />
+    <!-- 睁眼 -->
+    <path android:pathData="M27,38 a3,3.6 0 1,0 0.1,0 z M45,38 a3,3.6 0 1,0 0.1,0 z" android:fillColor="#FF6B4A2F" />
+    <path android:pathData="M20,49 a4,2.5 0 1,0 8,0 a4,2.5 0 1,0 -8,0 z" android:fillColor="#FFF3A6A6" />
+    <path android:pathData="M44,49 a4,2.5 0 1,0 8,0 a4,2.5 0 1,0 -8,0 z" android:fillColor="#FFF3A6A6" />
+    <path android:pathData="M36,48 L33,51 L39,51 Z" android:fillColor="#FFD98B45" />
+    <path android:pathData="M36,51 C33,55 30,54 28,52 M36,51 C39,55 42,54 44,52"
+        android:strokeColor="#FFD98B45" android:strokeWidth="1.4" android:fillColor="#00000000" android:strokeLineCap="round" />
+</vector>

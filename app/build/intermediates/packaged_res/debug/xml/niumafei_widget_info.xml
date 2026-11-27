@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.3 尺寸自适应：
+     1) 默认从 4×3 降为 4×2（minHeight 180dp -> 110dp），卡片本身不再自带一大截空白；
+     2) minResizeWidth/Height 从 180×110dp 放到 110×70dp（约 2×1 格），
+        华为桌面按整格缩放时还能继续往下缩，不会再「拖不动」；
+     3) 两种布局都改成 weight 铺满 + 运行时字号缩放，任意尺寸都不留白、不裁字；
+     4) 桌面不回报准确尺寸时，可在设置页手动选「紧凑/标准/舒展」兜底。 -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="250dp"
+    android:minHeight="110dp"
+    android:minResizeWidth="110dp"
+    android:minResizeHeight="70dp"
+    android:targetCellWidth="4"
+    android:targetCellHeight="2"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="1800000"
+    android:initialLayout="@layout/widget_niumafei"
+    android:description="@string/widget_desc"
+    android:widgetCategory="home_screen" />

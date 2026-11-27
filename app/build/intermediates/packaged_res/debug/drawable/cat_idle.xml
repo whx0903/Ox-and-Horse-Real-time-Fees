@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 状态 1：上班前 / 摸鱼，闭眼打盹 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="140dp"
+    android:height="110dp"
+    android:viewportWidth="140"
+    android:viewportHeight="110">
+
+    <path android:pathData="M2,96 L138,96 L138,101 L2,101 Z" android:fillColor="#FFD9B99C" />
+
+    <!-- 显示器（待机暗屏） -->
+    <path android:pathData="M78,22 h52 a5,5 0 0 1 5,5 v44 a5,5 0 0 1 -5,5 h-52 a5,5 0 0 1 -5,-5 v-44 a5,5 0 0 1 5,-5 z" android:fillColor="#FF4A5568" />
+    <path android:pathData="M79,28 h50 v42 h-50 z" android:fillColor="#FF6E8899" />
+    <path android:pathData="M99,76 h10 v14 h-10 z" android:fillColor="#FF4A5568" />
+    <path android:pathData="M90,90 h28 v5 h-28 z" android:fillColor="#FF4A5568" />
+
+    <!-- 猫尾巴 -->
+    <path android:pathData="M20,84 C2,80 2,60 14,58 C22,57 24,66 18,68"
+        android:strokeColor="#FFD98B45" android:strokeWidth="6" android:fillColor="#00000000" android:strokeLineCap="round" />
+    <!-- 猫身体 -->
+    <path android:pathData="M18,62 C18,56 24,53 36,53 C48,53 54,56 54,62 L56,94 L16,94 Z" android:fillColor="#FFF0A868" />
+    <path android:pathData="M22,68 h8 M44,68 h8" android:strokeColor="#FFD98B45" android:strokeWidth="2" android:fillColor="#00000000" android:strokeLineCap="round" />
+    <!-- 猫耳朵 -->
+    <path android:pathData="M18,40 L22,20 L36,34 Z" android:fillColor="#FFF0A868" />
+    <path android:pathData="M54,40 L50,20 L38,34 Z" android:fillColor="#FFF0A868" />
+    <!-- 猫头 -->
+    <path android:pathData="M16,38 C16,28 24,24 36,24 C48,24 56,28 56,38 C56,52 48,60 36,60 C24,60 16,52 16,38 Z" android:fillColor="#FFF7B77B" />
+    <!-- 闭眼 -->
+    <path android:pathData="M24,42 q3,3 6,0 M42,42 q3,3 6,0"
+        android:strokeColor="#FF6B4A2F" android:strokeWidth="1.8" android:fillColor="#00000000" android:strokeLineCap="round" />
+    <!-- 腮红 -->
+    <path android:pathData="M20,49 a4,2.5 0 1,0 8,0 a4,2.5 0 1,0 -8,0 z" android:fillColor="#FFF3A6A6" />
+    <path android:pathData="M44,49 a4,2.5 0 1,0 8,0 a4,2.5 0 1,0 -8,0 z" android:fillColor="#FFF3A6A6" />
+    <!-- 鼻与嘴 -->
+    <path android:pathData="M36,48 L33,51 L39,51 Z" android:fillColor="#FFD98B45" />
+    <path android:pathData="M36,51 C33,55 30,54 28,52 M36,51 C39,55 42,54 44,52"
+        android:strokeColor="#FFD98B45" android:strokeWidth="1.4" android:fillColor="#00000000" android:strokeLineCap="round" />
+    <!-- 打盹的 Z -->
+    <path android:pathData="M60,22 h7 l-7,8 h7 M68,14 h5 l-5,6 h5"
+        android:strokeColor="#FF8C8177" android:strokeWidth="1.4" android:fillColor="#00000000" android:strokeLineJoin="round" />
+</vector>

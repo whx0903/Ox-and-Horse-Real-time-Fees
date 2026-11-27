@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-merged_res-4:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-merged_res-4:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-main-6:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-merged_res-4:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-main-6:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-merged_res-4:\\drawable_widget_bg.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-main-6:\\drawable\\widget_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-merged_res-4:\\drawable_cat_done.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-main-6:\\drawable\\cat_done.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-merged_res-4:\\drawable_cat_idle.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-main-6:\\drawable\\cat_idle.xml"
+    },
+    {
+        "merged": "com.example.niumafei.app-merged_res-4:/layout_widget_niumafei.xml.flat",
+        "source": "com.example.niumafei.app-main-6:/layout/widget_niumafei.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-merged_res-4:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-main-6:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-merged_res-4:\\xml_niumafei_widget_info.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-main-6:\\xml\\niumafei_widget_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-merged_res-4:\\drawable_cat_working.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-main-6:\\drawable\\cat_working.xml"
+    },
+    {
+        "merged": "com.example.niumafei.app-merged_res-4:/layout_widget_niumafei_compact.xml.flat",
+        "source": "com.example.niumafei.app-main-6:/layout/widget_niumafei_compact.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-merged_res-4:\\layout_widget_niumafei.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-main-6:\\layout\\widget_niumafei.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-merged_res-4:\\drawable_progress_bar.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-main-6:\\drawable\\progress_bar.xml"
+    },
+    {
+        "merged": "com.example.niumafei.app-merged_res-4:/xml_niumafei_widget_info.xml.flat",
+        "source": "com.example.niumafei.app-main-6:/xml/niumafei_widget_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-merged_res-4:\\layout_widget_niumafei_compact.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-main-6:\\layout\\widget_niumafei_compact.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-merged_res-4:\\drawable_ic_stat_tick.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.2\\com.example.niumafei.app-main-6:\\drawable\\ic_stat_tick.xml"
+    },
+    {
+        "merged": "com.example.niumafei.app-merged_res-4:/layout_activity_main.xml.flat",
+        "source": "com.example.niumafei.app-main-6:/layout/activity_main.xml"
+    }
+]

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_bg">#FFF6F1EA</color>
+    <color name="card_bg">#FFFFFFFF</color>
+    <color name="widget_bg">#FFFBF4EC</color>
+    <color name="primary">#FFE4762B</color>
+    <color name="primary_dark">#FFC25A18</color>
+    <color name="text_main">#FF3A322C</color>
+    <color name="text_sub">#FF8C8177</color>
+    <color name="divider">#FFEADFD2</color>
+    <color name="progress_track">#FFEADFD2</color>
+    <color name="progress_fill">#FFE4762B</color>
+    <color name="cat_orange">#FFF0A868</color>
+    <color name="cat_light">#FFF7B77B</color>
+    <color name="cat_dark">#FFD98B45</color>
+    <color name="monitor">#FF4A5568</color>
+    <color name="screen">#FF9AD8EC</color>
+    <color name="desk">#FFD9B99C</color>
+    <color name="ic_launcher_background">#FFE4762B</color>
+</resources>

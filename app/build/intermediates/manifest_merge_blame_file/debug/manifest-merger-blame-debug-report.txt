@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 仅 debug 构建生效：允许 adb 直接向刷新接收器发显式广播，方便本机/模拟器调试。
+4     release 构建仍使用 main/AndroidManifest.xml 里的 exported=false，不扩大攻击面。
+5-->
+6<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+7    package="com.example.niumafei"
+8    android:versionCode="1"
+9    android:versionName="1.0" >
+10
+11    <uses-sdk
+12        android:minSdkVersion="26"
+13        android:targetSdkVersion="34" />
+14    <!--
+15     工作时秒级刷新需要精确闹钟。API 33+ 由 USE_EXACT_ALARM 自动授予；
+16         API 31/32 依赖 SCHEDULE_EXACT_ALARM，主界面会检测并引导用户开启。
+17    -->
+18    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+18-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:6:5-74
+18-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:6:22-71
+19    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+19-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:7:5-79
+19-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:7:22-76
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- v1.2 可选「真秒级保活」前台服务（设置页可关） -->
+20-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:8:5-81
+20-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:8:22-78
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:10:5-77
+21-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:10:22-74
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+22-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:11:5-89
+22-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:11:22-86
+23    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+23-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:12:5-77
+23-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:12:22-74
+24
+25    <application
+25-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:14:5-74:19
+26        android:allowBackup="true"
+26-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:15:9-35
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:16:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:17:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:18:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:19:9-35
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:20:9-40
+34        <receiver
+34-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:57:9-73:20
+35            android:name="com.example.niumafei.WidgetRefresher"
+35-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:58:13-44
+36            android:exported="true" >
+36-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:59:13-37
+37            <intent-filter>
+37-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:60:13-72:29
+38                <action android:name="com.example.niumafei.REFRESH" />
+38-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:61:17-71
+38-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:61:25-68
+39                <action android:name="com.example.niumafei.SETTINGS_CHANGED" />
+39-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:62:17-80
+39-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:62:25-77
+40                <action android:name="android.intent.action.BOOT_COMPLETED" />
+40-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:63:17-79
+40-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:63:25-76
+41                <action android:name="android.intent.action.TIME_SET" />
+41-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:64:17-73
+41-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:64:25-70
+42                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+42-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:65:17-81
+42-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:65:25-78
+43                <action android:name="android.intent.action.DATE_CHANGED" />
+43-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:66:17-77
+43-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:66:25-74
+44                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+44-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:67:17-84
+44-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:67:25-81
+45                <!-- v1.2：解锁 / 亮屏后立即重排秒链并拉起前台服务，息屏被限流也能自愈 -->
+46                <action android:name="android.intent.action.USER_PRESENT" />
+46-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:69:17-77
+46-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:69:25-74
+47                <action android:name="android.intent.action.SCREEN_ON" />
+47-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:70:17-74
+47-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:70:25-71
+48                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+48-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:71:17-107
+48-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:71:25-104
+49            </intent-filter>
+50        </receiver>
+51
+52        <activity
+52-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:22:9-31:20
+53            android:name="com.example.niumafei.MainActivity"
+53-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:23:13-41
+54            android:exported="true"
+54-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:24:13-36
+55            android:label="@string/app_name"
+55-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:25:13-45
+56            android:windowSoftInputMode="adjustResize" >
+56-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:26:13-55
+57            <intent-filter>
+57-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:27:13-30:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:28:17-69
+58-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:28:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:29:17-77
+60-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:29:27-74
+61            </intent-filter>
+62        </activity> <!-- 前台秒针：只在「真秒级保活」开关打开时启动，关闭时零通知 -->
+63        <service
+63-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:34:9-41:19
+64            android:name="com.example.niumafei.TickService"
+64-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:35:13-40
+65            android:exported="false"
+65-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:36:13-37
+66            android:foregroundServiceType="specialUse" >
+66-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:37:13-55
+67            <property
+67-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:38:13-40:52
+68                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+68-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:39:17-76
+69                android:value="每秒刷新桌面倒计时与牛马费小组件" />
+69-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:40:17-49
+70        </service> <!-- 桌面小组件 -->
+71        <receiver
+71-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:44:9-54:20
+72            android:name="com.example.niumafei.NiuMaFeiWidget"
+72-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:45:13-43
+73            android:exported="false"
+73-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:46:13-37
+74            android:label="@string/widget_name" >
+74-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:47:13-48
+75            <intent-filter>
+75-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:48:13-50:29
+76                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+76-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:49:17-84
+76-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:49:25-81
+77            </intent-filter>
+78
+79            <meta-data
+79-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:51:13-53:64
+80                android:name="android.appwidget.provider"
+80-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:52:17-58
+81                android:resource="@xml/niumafei_widget_info" />
+81-->C:\Users\Administrator\WorkBuddy\2026-11-09-17-57-01\niumafei-countdown\app\src\main\AndroidManifest.xml:53:17-61
+82        </receiver>
+83    </application>
+84
+85</manifest>

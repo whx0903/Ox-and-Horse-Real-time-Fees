@@ -1,0 +1,20 @@
+// 仅用于本机首次构建加速，不属于工程源码，不提交。
+// 用法：gradlew.bat -I <本文件> assembleDebug
+beforeSettings { settings ->
+    settings.pluginManagement {
+        repositories {
+            maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+            maven { url 'https://maven.aliyun.com/repository/google' }
+            maven { url 'https://maven.aliyun.com/repository/public' }
+        }
+    }
+}
+
+settingsEvaluated { settings ->
+    settings.dependencyResolutionManagement {
+        repositories {
+            maven { url 'https://maven.aliyun.com/repository/google' }
+            maven { url 'https://maven.aliyun.com/repository/public' }
+        }
+    }
+}
